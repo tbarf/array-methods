@@ -33,3 +33,38 @@ let nextOrder = orderQueue.shift();
 let sortedNums = mixedNums.sort();
 
 let sortedWords = mixedWords.sort();
+
+let notFruit = fruitCollection.splice(1,3);
+
+gemBox.splice(5, 7, 'Sapphire');
+
+upToTen.splice(2,0,3,4,5,6,7,8);
+
+brownOnly.splice(1,5, 'brown', 'brown', 'brown');
+
+orderedValues.unshift(1,2,3);
+
+orderedValuesNewLength = orderedValues.length;
+
+randomThingsArray = genericNumberArray.concat(colors);
+
+updatedOrders = orderQueue.concat({takeOut: "stake"}, {takeOut: "dirt"});
+
+let sentence = scrambledWords.join(" ");
+
+let myFruits = fruitCollection.join(" + ");
+
+let favoriteFriends = friends.slice(1,3);
+
+let owesMoney = friends.slice(3,6);
+
+let monthNameString = monthNames.toString();
+
+let favoriteColor = colors.indexOf('Red');
+
+let favoriteEvenNumber = mixedNums.indexOf(76);
+
+let lastNine = bulkNumbers.lastIndexOf(9);
+
+let lastFive = bulkNumbers.lastIndexOf(5);
+
