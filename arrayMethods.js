@@ -29,3 +29,7 @@ scrambledWords.reverse();
 phoneNumber.reverse();
 
 let nextOrder = orderQueue.shift();
+
+let sortedNums = mixedNums.sort();
+
+let sortedWords = mixedWords.sort();
