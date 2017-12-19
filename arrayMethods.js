@@ -28,4 +28,4 @@ scrambledWords.reverse();
 
 phoneNumber.reverse();
 
-friends.shift();
+let nextOrder = orderQueue.shift();
